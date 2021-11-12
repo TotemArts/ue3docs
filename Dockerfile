@@ -1,3 +1,3 @@
 FROM lscr.io/linuxserver/nginx
-WORKDIR /usr/share/nginx/html
+WORKDIR /config/www
 COPY . .
